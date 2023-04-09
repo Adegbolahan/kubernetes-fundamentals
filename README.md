@@ -1,2 +1,2 @@
-# kubernetes-fundamentals
-kubernetes-fundamentals
+# Kubernetes Fundamentals
+

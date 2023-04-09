@@ -1,0 +1,43 @@
+################################ key value pairs
+name: koji
+age: 24 
+fav_programing_lag: python 
+school: Kojitechs 
+
+################################ Dictionary 
+person:
+  name: koji
+  age: 24 
+  fav_programing_lag: python 
+  school: Kojitechs 
+
+################################ Array and List 
+person:
+  name: koji
+  age: 24 
+  fav_programing_lag: python 
+  school: Kojitechs
+  hobbies: [Cooking , cycling] # List 
+
+  hobby:
+    - Cooking 
+    - cycling 
+################################ Mutiple list
+
+person:
+  name: koji
+  age: 24 
+  fav_programing_lag: python 
+  school: Kojitechs
+  hobbies: [Cooking , cycling] # List 
+
+  hobby:
+    - Cooking 
+    - cycling 
+  friends: Multiple list 
+    - name: friend1
+      age: 23 
+      gender: male
+    - name: friend2
+      age: 21 
+      gender: female

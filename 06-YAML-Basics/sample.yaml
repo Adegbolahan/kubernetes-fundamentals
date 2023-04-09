@@ -1,0 +1,21 @@
+apiVersion: apps/v1 # String 
+kind: Deployment # STRING
+metadata: # dictionary
+  name: my-first-deployment
+  labels: # dictionary
+    app: my-first-nginx-app
+spec: # dictionary
+  replicas: 3
+  selector: 
+    matchLabels: 
+      app: my-first-nginx-app
+  template:
+    metadata:
+      labels:
+        app: my-first-nginx-app
+    spec:
+      containers: # list
+      - name: my-first-nginx-app
+        image: kojibello/kojitechs-app:v3.0.0
+        ports:
+        - containerPort: 80
