@@ -14,7 +14,7 @@
 ```
 # Create Deployment
 kubectl create deployment <Deplyment-Name> --image=<Container-Image>
-kubectl create deployment my-first-deployment --image=kojibello/kojitechs-app:v2.0.0
+kubectl create deployment my-first-deployment --image=kojibello/kojitechs-app:2.0.0
 
 # Verify Deployment
 kubectl get deployments
